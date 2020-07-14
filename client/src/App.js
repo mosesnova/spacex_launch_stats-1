@@ -7,7 +7,7 @@ import Launch from './components/Launch';
 import './App.css';
 import logo from './logo.png';
 
-const client = new ApolloClient({
+const client = new  ApolloClient({
   uri: '/graphql'
 });
 
